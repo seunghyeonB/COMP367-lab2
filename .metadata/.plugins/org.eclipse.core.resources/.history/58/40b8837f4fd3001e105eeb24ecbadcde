@@ -1,0 +1,12 @@
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+public class WelComeController {
+	
+	@GetMapping("welcome")
+	public String welcome() {
+		return "welcome";
+	}
+
+}
